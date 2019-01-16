@@ -1,1 +1,27 @@
 This repository contains manifest file for repo tool
+
+*. Make sure you have a bin/ directory in your home directory and that is
+   included in your path.
+$ mkdir ~/bin
+$ export PATH=~/bin:$PATH
+
+*. Download the repo tool and ensure it is executable
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+
+*. Create an empty directory to hold working directory
+$ mkdir WORKING_DIR
+$ cd WORKING_DIR
+
+*. Configure git with your real name and email address
+$ git config --global user.name "Your Name"
+$ git config --global user.email "you@example.com"
+
+*. Use following command to download manifest file for NUC970 BSP
+$ repo init -u git://github.com/OpenNuvoton/manifest.git -b nuc970
+
+*. Use following command to download manifest file for NUC980 BSP
+$ repo init -u git://github.com/OpenNuvoton/manifest.git -b nuc980
+
+*. Download source tree
+$ repo sync
