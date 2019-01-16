@@ -6,21 +6,21 @@
   <project remote="Nuvoton" 
            revision="master" 
            name="NUC980-linux-4.4.y" 
-           path="bsp/linux-4.4.y"/>
+           path="nuc980bsp/linux-4.4.y"/>
   <project remote="Nuvoton" 
            revision="master" 
            name="NUC980_NuWriter_CMD" 
-           path="bsp/nuwriter"/>
+           path="nuc980bsp/nuwriter"/>
   <project remote="Nuvoton" 
            revision="master" 
            name="NUC970_U-Boot_v2016.11" 
-           path="bsp/u-boot"/>
+           path="nuc980bsp/u-boot"/>
   <project remote="Nuvoton" 
            revision="master" 
            name="NUC980_Linux_Applications" 
-           path="bsp/applications"/>
+           path="nuc980bsp/applications"/>
   <project remote="Nuvoton" 
            revision="master" 
            name="NUC970_Buildroot" 
-           path="bsp/buildroot"/>
+           path="nuc980bsp/buildroot"/>
 </manifest>
