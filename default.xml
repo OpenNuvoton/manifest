@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+  <remote fetch="git://github.com/OpenNuvoton" name="Nuvoton"/>
+  <project remote="Nuvoton" 
+           revision="master" 
+           name="NUC970_Linux_Kernel" 
+           path="bsp/linux-3.10.x"/>
+  <project remote="Nuvoton" 
+           revision="master" 
+           name="NUC970_NuWriter_CMD" 
+           path="bsp/nuwriter"/>
+  <project remote="Nuvoton" 
+           revision="master" 
+           name="NUC970_U-Boot_v2016.11" 
+           path="bsp/u-boot"/>
+  <project remote="Nuvoton" 
+           revision="master" 
+           name="NUC970_Linux_Applications" 
+           path="bsp/applications"/>
+  <project remote="Nuvoton" 
+           revision="master" 
+           name="NUC970_Buildroot" 
+           path="bsp/buildroot"/>
+</manifest>
