@@ -2,24 +2,27 @@
 <manifest>
 
   <default sync-j="2"/>
-  <remote fetch="git://github.com/OpenNuvoton" name="Nuvoton"/>
-  <project remote="Nuvoton" 
+
+  <remote fetch="git://github.com/OpenNuvoton" name="Github_OpenNuvoton"/>
+  <remote fetch="https://gitee.com/OpenNuvoton" name="Gitee_OpenNuvoton"/>
+
+  <project remote="Github_OpenNuvoton"
            revision="master" 
            name="NUC980-linux-4.4.y" 
            path="nuc980bsp/linux-4.4.y"/>
-  <project remote="Nuvoton" 
+  <project remote="Github_OpenNuvoton" 
            revision="master" 
-           name="NUC980_NuWriter_CMD" 
+           name="NUC980_NuWriter_CMD"
            path="nuc980bsp/nuwriter"/>
-  <project remote="Nuvoton" 
+  <project remote="Github_OpenNuvoton" 
            revision="master" 
-           name="NUC970_U-Boot_v2016.11" 
+           name="NUC970_U-Boot_v2016.11"
            path="nuc980bsp/u-boot"/>
-  <project remote="Nuvoton" 
+  <project remote="Github_OpenNuvoton" 
            revision="master" 
-           name="NUC980_Linux_Applications" 
+           name="NUC980_Linux_Applications"
            path="nuc980bsp/applications"/>
-  <project remote="Nuvoton" 
+  <project remote="Github_OpenNuvoton"
            revision="master" 
            name="NUC970_Buildroot" 
            path="nuc980bsp/buildroot"/>
