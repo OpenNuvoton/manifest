@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="2"/>
+
+  <remote fetch="git://github.com/OpenNuvoton" name="Github_OpenNuvoton"/>
+
+  <project remote="Github_OpenNuvoton"
+           revision="f91f08ba0cb0ba5e0838107f049ab7048a713b95"
+           name="NUC980-linux-4.4.y"
+           path="nuc980bsp/linux-4.4.y"/>
+  <project remote="Github_OpenNuvoton"
+           revision="5612c6cc3526d53c5ac664d48aafbc936376a5da"
+           name="NUC980_NuWriter_CMD"
+           path="nuc980bsp/nuwriter"/>
+  <project remote="Github_OpenNuvoton"
+           revision="82e8631676e0ffc7300117d7e4f34acd597d6427"
+           name="NUC970_U-Boot_v2016.11"
+           path="nuc980bsp/u-boot-2016.11"/>
+  <project remote="Github_OpenNuvoton"
+           revision="f1a19f3a3365e43f595ac0cb3b7c05f8691a7d0c"
+           name="NUC980_Linux_Applications"
+           path="nuc980bsp/applications"/>
+  <project remote="Github_OpenNuvoton"
+           revision="600a1143f323c6001761feb7747ff796ca025585"
+           name="NUC970_Buildroot"
+           path="nuc980bsp/buildroot"/>
+</manifest>
