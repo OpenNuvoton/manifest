@@ -9,6 +9,7 @@
   <project remote="Github_OpenNuvoton"
            revision="master" 
            name="NUC980-linux-4.4.y" 
+           clone-depth="1"
            path="nuc980bsp/linux-4.4.y"/>
   <project remote="Github_OpenNuvoton" 
            revision="master" 

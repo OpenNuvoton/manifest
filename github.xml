@@ -6,15 +6,16 @@
   <remote fetch="git://github.com/OpenNuvoton" name="Github_OpenNuvoton"/>
 
   <project remote="Github_OpenNuvoton"
-           revision="f91f08ba0cb0ba5e0838107f049ab7048a713b95"
+           revision="34c9a5b60c6081c05c0f39093b1e24e306a1aeea"
            name="NUC980-linux-4.4.y"
+           clone-depth="1"
            path="nuc980bsp/linux-4.4.y"/>
   <project remote="Github_OpenNuvoton"
-           revision="5612c6cc3526d53c5ac664d48aafbc936376a5da"
+           revision="ae19373ae43324ee696d709b87cf6238583666da"
            name="NUC980_NuWriter_CMD"
            path="nuc980bsp/nuwriter"/>
   <project remote="Github_OpenNuvoton"
-           revision="82e8631676e0ffc7300117d7e4f34acd597d6427"
+           revision="3764646c185a4b4e7d2676777d2efdcb8d261b15"
            name="NUC970_U-Boot_v2016.11"
            path="nuc980bsp/u-boot-2016.11"/>
   <project remote="Github_OpenNuvoton"
